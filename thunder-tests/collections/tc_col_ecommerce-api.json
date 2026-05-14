@@ -86,10 +86,9 @@
                 "type": "json",
                 "raw": [
                     "{",
-                    "  \"email\": \"varun@example.com\",",
+                    "  \"email\": \"varun12@example.com\",",
                     "  \"password\": \"123456\"",
-                    "}",
-                    ""
+                    "}"
                 ],
                 "form": []
             },
