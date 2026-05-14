@@ -50,7 +50,7 @@
                 "raw": [
                     "{",
                     "  \"name\": \"Varun\",",
-                    "  \"email\": \"varun@example.com\",",
+                    "  \"email\": \"varun1@example.com\",",
                     "  \"password\": \"123456\"",
                     "}"
                 ],
@@ -130,7 +130,7 @@
             "_id": "d4b70ccd-a0c5-4e8e-8fe0-a5cb796a6114",
             "colId": "4e1da915-a666-4203-bfd2-9e5ee41fe195",
             "containerId": "c65512cb-1388-4377-ba6d-46fa9d87ed5d",
-            "name": "Filter Products by Category. Filter Prod Filter Products by Category",
+            "name": "Filter Products by Category",
             "url": "{{baseUrl}}/api/products?category=Electronics",
             "method": "GET",
             "sortNum": 50000,
@@ -152,13 +152,13 @@
             "name": "Get Product by ID",
             "url": "{{baseUrl}}/api/products/{{productId}}",
             "method": "GET",
-            "sortNum": 60000,
+            "sortNum": 75000,
             "created": "2026-05-14T05:33:59.603Z",
             "modified": "2026-05-14T05:33:59.603Z",
             "headers": [],
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1NmYzYjQwLWVlNzAtNDExZi04OWM0LTMyODJiMzczMzc0OSIsImVtYWlsIjoidmFydW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3Nzg3Mzc5MDgsImV4cCI6MTc3OTM0MjcwOH0.kRIdhH_Lz0NISVYK9-rF1Ru6_atVZ_SKnfA2TWZONBo"
+                "bearer": "{{token}}"
             }
         },
         {
@@ -187,7 +187,7 @@
             },
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1NmYzYjQwLWVlNzAtNDExZi04OWM0LTMyODJiMzczMzc0OSIsImVtYWlsIjoidmFydW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3Nzg3Mzc5MDgsImV4cCI6MTc3OTM0MjcwOH0.kRIdhH_Lz0NISVYK9-rF1Ru6_atVZ_SKnfA2TWZONBo"
+                "bearer": "{{token}}"
             },
             "tests": [
                 {
@@ -229,7 +229,7 @@
             },
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1NmYzYjQwLWVlNzAtNDExZi04OWM0LTMyODJiMzczMzc0OSIsImVtYWlsIjoidmFydW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3Nzg3Mzc5MDgsImV4cCI6MTc3OTM0MjcwOH0.kRIdhH_Lz0NISVYK9-rF1Ru6_atVZ_SKnfA2TWZONBo"
+                "bearer": "{{token}}"
             },
             "tests": [
                 {
@@ -253,7 +253,7 @@
             "headers": [],
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1NmYzYjQwLWVlNzAtNDExZi04OWM0LTMyODJiMzczMzc0OSIsImVtYWlsIjoidmFydW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3Nzg3Mzc5MDgsImV4cCI6MTc3OTM0MjcwOH0.kRIdhH_Lz0NISVYK9-rF1Ru6_atVZ_SKnfA2TWZONBo"
+                "bearer": "{{token}}"
             },
             "tests": [
                 {
@@ -266,7 +266,7 @@
                     "type": "json-query",
                     "custom": "json.message",
                     "action": "equal",
-                    "value": "\"Product deleted\""
+                    "value": "Product deleted"
                 }
             ]
         },
@@ -274,7 +274,7 @@
             "_id": "d091f231-5063-4c0b-92a8-0714c5b700c6",
             "colId": "4e1da915-a666-4203-bfd2-9e5ee41fe195",
             "containerId": "f6a866a6-a6ab-43fb-9111-5fd03ba98e44",
-            "name": "Get My Orders\t",
+            "name": "Get My Orders",
             "url": "{{baseUrl}}/api/orders",
             "method": "GET",
             "sortNum": 100000,
@@ -283,7 +283,7 @@
             "headers": [],
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1NmYzYjQwLWVlNzAtNDExZi04OWM0LTMyODJiMzczMzc0OSIsImVtYWlsIjoidmFydW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3Nzg3Mzc5MDgsImV4cCI6MTc3OTM0MjcwOH0.kRIdhH_Lz0NISVYK9-rF1Ru6_atVZ_SKnfA2TWZONBo"
+                "bearer": "{{token}}"
             },
             "tests": [
                 {
@@ -298,16 +298,27 @@
             "_id": "459061e0-d813-4f9b-a9e0-66541f6ecf3d",
             "colId": "4e1da915-a666-4203-bfd2-9e5ee41fe195",
             "containerId": "f6a866a6-a6ab-43fb-9111-5fd03ba98e44",
-            "name": "Create Order ",
-            "url": "{{baseUrl}}/api/orders/{{orderId}}",
+            "name": "Create Order",
+            "url": "{{baseUrl}}/api/orders",
             "method": "POST",
             "sortNum": 110000,
             "created": "2026-05-14T05:40:15.123Z",
             "modified": "2026-05-14T05:40:15.123Z",
             "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"items\": [",
+                    "    { \"productId\": \"{{productId}}\", \"quantity\": 1 }",
+                    "  ]",
+                    "}"
+                ],
+                "form": []
+            },
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1NmYzYjQwLWVlNzAtNDExZi04OWM0LTMyODJiMzczMzc0OSIsImVtYWlsIjoidmFydW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3Nzg3Mzc5MDgsImV4cCI6MTc3OTM0MjcwOH0.kRIdhH_Lz0NISVYK9-rF1Ru6_atVZ_SKnfA2TWZONBo"
+                "bearer": "{{token}}"
             },
             "tests": [
                 {
@@ -320,7 +331,7 @@
                     "type": "json-query",
                     "custom": "json.status",
                     "action": "equal",
-                    "value": "\"pending\""
+                    "value": "pending"
                 },
                 {
                     "type": "set-env-var",
@@ -335,7 +346,7 @@
             "colId": "4e1da915-a666-4203-bfd2-9e5ee41fe195",
             "containerId": "f6a866a6-a6ab-43fb-9111-5fd03ba98e44",
             "name": "Get Order by ID",
-            "url": "{{baseUrl}}/api/products/{{productId}}",
+            "url": "{{baseUrl}}/api/orders/{{orderId}}",
             "method": "GET",
             "sortNum": 120000,
             "created": "2026-05-14T05:42:43.990Z",
@@ -343,7 +354,7 @@
             "headers": [],
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1NmYzYjQwLWVlNzAtNDExZi04OWM0LTMyODJiMzczMzc0OSIsImVtYWlsIjoidmFydW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3Nzg3Mzc5MDgsImV4cCI6MTc3OTM0MjcwOH0.kRIdhH_Lz0NISVYK9-rF1Ru6_atVZ_SKnfA2TWZONBo"
+                "bearer": "{{token}}"
             }
         },
         {
@@ -357,9 +368,18 @@
             "created": "2026-05-14T05:44:04.946Z",
             "modified": "2026-05-14T05:44:04.946Z",
             "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"status\": \"processing\"",
+                    "}"
+                ],
+                "form": []
+            },
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1NmYzYjQwLWVlNzAtNDExZi04OWM0LTMyODJiMzczMzc0OSIsImVtYWlsIjoidmFydW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3Nzg3Mzc5MDgsImV4cCI6MTc3OTM0MjcwOH0.kRIdhH_Lz0NISVYK9-rF1Ru6_atVZ_SKnfA2TWZONBo"
+                "bearer": "{{token}}"
             },
             "tests": [
                 {
@@ -372,7 +392,7 @@
                     "type": "json-query",
                     "custom": "json.status",
                     "action": "equal",
-                    "value": "\"processing\""
+                    "value": "processing"
                 }
             ]
         }
