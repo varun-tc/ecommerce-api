@@ -1,0 +1,42 @@
+name: API Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run-api-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install app dependencies
+        run: npm install
+
+      - name: Start server
+        run: node index.js &
+
+      - name: Wait for server to be ready
+        run: npx wait-on http://localhost:3000 --timeout 15000
+
+      - name: Install Thunder Client CLI
+        run: npm install -g @thunderclient/cli
+
+      - name: Run Collection
+        run: tc --col "Ecommerce API" --env "dev" --report cli,json
+
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thunder-reports
+          path: thunder-reports/

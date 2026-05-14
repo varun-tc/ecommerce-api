@@ -1,0 +1,26 @@
+{
+    "_id": "b0d95898-13d8-463d-b10e-fd7783b6d3a4",
+    "name": "dev",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2026-05-14T05:47:23.160Z",
+    "modified": "2026-05-14T05:47:23.160Z",
+    "data": [
+        {
+            "name": "baseUrl",
+            "value": "http://localhost:3000"
+        },
+        {
+            "name": "token",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1NmYzYjQwLWVlNzAtNDExZi04OWM0LTMyODJiMzczMzc0OSIsImVtYWlsIjoidmFydW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3Nzg3Mzk0MjUsImV4cCI6MTc3OTM0NDIyNX0.6xlfKyfXP_c1ndZNQJKkl_f80b2ibcT8VvnBTZYrc8s"
+        },
+        {
+            "name": "userId",
+            "value": "f56f3b40-ee70-411f-89c4-3282b3733749"
+        },
+        {
+            "name": "productId",
+            "value": "f474d3bb-3535-4005-9e20-f86ea34a3400"
+        }
+    ]
+}
