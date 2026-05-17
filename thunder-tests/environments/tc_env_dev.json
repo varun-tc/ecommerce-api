@@ -8,19 +8,19 @@
     "data": [
         {
             "name": "token",
-            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI1YTU5ZjNhLTcxODYtNDk5OC1iODk3LTM2YWE1YjVmMmUyYiIsImVtYWlsIjoidGVzdGluZ3VzZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NzkwNDA5MzMsImV4cCI6MTc3OTY0NTczM30.2hMo5z_vHngrrXHafp17lfQIenvP9FncZFbMzp5stNA"
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjcyOTM4NWY5LWY5MDUtNDE3Zi1iODA5LWQxZmYyNWRlZDEzYiIsImVtYWlsIjoidGVzdGluZ3VzZXIxQGV4YW1wbGUuY29tIiwicm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzc5MDQxNDM5LCJleHAiOjE3Nzk2NDYyMzl9.ZzkP8GH3LXgupM4Ok89kiBQg_Ke1frrT_CXjbX6fosM"
         },
         {
             "name": "userId",
-            "value": "b5a59f3a-7186-4998-b897-36aa5b5f2e2b"
+            "value": "729385f9-f905-417f-b809-d1ff25ded13b"
         },
         {
             "name": "productId",
-            "value": "76535fd3-4748-48de-ab25-0332586ea838"
+            "value": "93af6883-029e-485b-96e5-99eb2970bbfd"
         },
         {
             "name": "orderId",
-            "value": "4e356ccf-8736-44e6-95f6-a02662ee5d08"
+            "value": "46178936-b610-4daa-b800-a8b20b5625b8"
         },
         {
             "name": "baseUrl",
@@ -28,7 +28,7 @@
         },
         {
             "name": "testEmail",
-            "value": "testinguser@example.com"
+            "value": "testinguser1@example.com"
         },
         {
             "name": "testPassword",
