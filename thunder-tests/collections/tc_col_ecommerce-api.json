@@ -69,7 +69,12 @@
                     "action": "equal",
                     "value": "User registered"
                 }
-            ]
+            ],
+            "preReq": {
+                "options": {
+                    "skipRequest": true
+                }
+            }
         },
         {
             "_id": "f9871966-883a-45b0-8161-afe6274600f6",
