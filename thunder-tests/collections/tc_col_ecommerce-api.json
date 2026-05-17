@@ -50,8 +50,8 @@
                 "raw": [
                     "{",
                     "  \"name\": \"Varun\",",
-                    "  \"email\": \"varun123@example.com\",",
-                    "  \"password\": \"123456\"",
+                    "  \"email\": \"{{testEmail}}\",",
+                    "  \"password\": \"{{testPassword}}\"",
                     "}"
                 ],
                 "form": []
@@ -86,8 +86,8 @@
                 "type": "json",
                 "raw": [
                     "{",
-                    "  \"email\": \"varun12@example.com\",",
-                    "  \"password\": \"123456\"",
+                    "  \"email\": \"{{testEmail}}\",",
+                    "  \"password\": \"{{testPassword}}\"",
                     "}"
                 ],
                 "form": []

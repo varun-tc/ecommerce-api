@@ -8,7 +8,7 @@
     "data": [
         {
             "name": "token",
-            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0NzU5OGMwLTNkNWUtNDM4Ni05MmZlLTg5OTExMWMzZDc4NSIsImVtYWlsIjoidmFydW4xMkBleGFtcGxlLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc3OTAzOTM3OSwiZXhwIjoxNzc5NjQ0MTc5fQ.ktxwvGiJP5dPHExky9HUAGJZwm71hW_JCirKvnhmr2E"
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0NzU5OGMwLTNkNWUtNDM4Ni05MmZlLTg5OTExMWMzZDc4NSIsImVtYWlsIjoidmFydW4xMkBleGFtcGxlLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc3OTAzOTQ0OCwiZXhwIjoxNzc5NjQ0MjQ4fQ.baX5IFL_2_qJUemTxFk0AmHGRyxmVedkv3I5aGpcK-w"
         },
         {
             "name": "userId",
@@ -16,15 +16,23 @@
         },
         {
             "name": "productId",
-            "value": "cea7d22d-8062-401c-912f-e3d39eb197a3"
+            "value": "c5810d3e-6fd4-45cf-9e3b-f1e20f5b6040"
         },
         {
             "name": "orderId",
-            "value": "01662189-67b2-4f47-9459-40bb81546148"
+            "value": "b541b1cc-1fd1-45e6-962b-a33b45e20401"
         },
         {
             "name": "baseUrl",
             "value": "http://localhost:3000"
+        },
+        {
+            "name": "testEmail",
+            "value": "testuser@example.com"
+        },
+        {
+            "name": "testPassword",
+            "value": "123456"
         }
     ]
 }
