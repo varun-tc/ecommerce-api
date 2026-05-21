@@ -41,7 +41,7 @@
             "name": "Register User",
             "url": "{{baseUrl}}/api/auth/register",
             "method": "POST",
-            "sortNum": 15000,
+            "sortNum": 3750,
             "created": "2026-05-14T05:29:23.960Z",
             "modified": "2026-05-14T05:29:23.960Z",
             "headers": [],
@@ -69,7 +69,12 @@
                     "action": "equal",
                     "value": "User registered"
                 }
-            ]
+            ],
+            "preReq": {
+                "options": {
+                    "skipRequest": true
+                }
+            }
         },
         {
             "_id": "f9871966-883a-45b0-8161-afe6274600f6",
@@ -78,7 +83,7 @@
             "name": "Login",
             "url": "{{baseUrl}}/api/auth/login",
             "method": "POST",
-            "sortNum": 30000,
+            "sortNum": 1875,
             "created": "2026-05-14T05:31:05.151Z",
             "modified": "2026-05-14T05:31:05.151Z",
             "headers": [],
@@ -395,5 +400,12 @@
                 }
             ]
         }
-    ]
+    ],
+    "settings": {
+        "runOptions": {
+            "delay": 0,
+            "iterations": 5,
+            "dataFilePath": ""
+        }
+    }
 }
