@@ -8,27 +8,27 @@
     "data": [
         {
             "name": "token",
-            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwZTY1Yzg0LThhODItNDMwMi1hNmU4LTA1NDQ4ZmRmYmVkNCIsImVtYWlsIjoidWJqdGVzdGd1c2U3ODk4OTEwMEBleGFtcGxlLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc3OTY0NTA3OCwiZXhwIjoxNzgwMjQ5ODc4fQ.lQMO2KT8JkZ8PGkAOgHRuEe2a2ox5Vc5AN7cdKqh6dw"
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU2MDIyZGUyLTFkZGItNDA5YS04MzYxLWVmNTlhYmI0ZGUyZCIsImVtYWlsIjoidXNlcmRlbW8xMDAwQGV4YW1wbGUuY29tIiwicm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzgwNDIxODAxLCJleHAiOjE3ODEwMjY2MDF9.OEppCwo-OBS1QwV_AiasZcq23KIaBAobHKp1ZlY_TCI"
         },
         {
             "name": "userId",
-            "value": "10e65c84-8a82-4302-a6e8-05448fdfbed4"
+            "value": "56022de2-1ddb-409a-8361-ef59abb4de2d"
         },
         {
             "name": "productId",
-            "value": "f3385e3f-090d-4db7-8dea-df903b1231dc"
+            "value": "6c1388b3-377b-40cf-83ef-335c69f2c047"
         },
         {
             "name": "orderId",
-            "value": "27f1d8a0-d89f-40a2-aea4-48bd5e772b29"
+            "value": "97653f2d-c35f-4d5f-a91f-35b79420cacb"
         },
         {
             "name": "baseUrl",
-            "value": "http://localhost:3000"
+            "value": "https://ecommerce-api-cjwf.onrender.com/"
         },
         {
             "name": "testEmail",
-            "value": "ubjtestguse78989100@example.com"
+            "value": "userdemo1000@example.com"
         },
         {
             "name": "testPassword",
