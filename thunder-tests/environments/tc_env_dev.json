@@ -8,11 +8,11 @@
     "data": [
         {
             "name": "token",
-            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU2MDIyZGUyLTFkZGItNDA5YS04MzYxLWVmNTlhYmI0ZGUyZCIsImVtYWlsIjoidXNlcmRlbW8xMDAwQGV4YW1wbGUuY29tIiwicm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzgwNDIxODAxLCJleHAiOjE3ODEwMjY2MDF9.OEppCwo-OBS1QwV_AiasZcq23KIaBAobHKp1ZlY_TCI"
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMzNWRmZjkzLWY4NGQtNDQ1My1iYjMwLTk3MjA5YzUxMTBiOSIsImVtYWlsIjoidXNlcmRlbW8xMDAwMEBleGFtcGxlLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc4MDQyNjU2NSwiZXhwIjoxNzgxMDMxMzY1fQ.du9yTXlWB_rVY8y6mX9RHgUHT29zwk4FWv8q34waTKI"
         },
         {
             "name": "userId",
-            "value": "56022de2-1ddb-409a-8361-ef59abb4de2d"
+            "value": "335dff93-f84d-4453-bb30-97209c5110b9"
         },
         {
             "name": "productId",
@@ -24,7 +24,7 @@
         },
         {
             "name": "baseUrl",
-            "value": "https://ecommerce-api-cjwf.onrender.com/"
+            "value": "https://ecommerce-api-cjwf.onrender.com"
         },
         {
             "name": "testEmail",
